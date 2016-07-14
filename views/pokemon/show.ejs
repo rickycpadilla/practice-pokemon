@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Pokemon Details</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+
+  </head>
+  <body>
+    <h1><%= pokemons.name %></h1>
+    <p>Type: <%= pokemons.type %></p>
+    <a href="/pokemon/<%= pokemons.id %>/edit">EDIT</a>
+    <br>
+    <a href="/pokemon/<%= pokemons.id %>/delete">DELETE</a>
+  </body>
+</html>
